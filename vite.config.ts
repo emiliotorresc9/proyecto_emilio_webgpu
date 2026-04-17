@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-import { defineConfig } from "vite";
-
-export default defineConfig({
-  base: "/"
-});
-=======
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  publicDir: 'public',
+  resolve: {
+    extensions: ['.ts', '.js']
+  },
+  build: {
+    target: 'esnext'
+  }
 });
->>>>>>> f8b9a87 (update proyecto modificado)

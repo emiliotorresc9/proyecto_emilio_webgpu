@@ -1,33 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2023",
-    "module": "esnext",
-    "lib": ["ES2023", "DOM", "DOM.Iterable"],
-    "types": ["vite/client", "@webgpu/types"],
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2020", "DOM"],
+    "types": ["@webgpu/types"],
+    "strict": false,
     "skipLibCheck": true,
-<<<<<<< HEAD
-
-=======
->>>>>>> f8b9a87 (update proyecto modificado)
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
-    "noEmit": true,
-<<<<<<< HEAD
-
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true
+    "noEmit": true
   },
   "include": ["src"]
-=======
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true
-  },
-  "include": ["src", "vite.config.ts"]
->>>>>>> f8b9a87 (update proyecto modificado)
 }
